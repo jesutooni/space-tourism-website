@@ -1,5 +1,5 @@
 <template>
-  <div class="image bg-cover bg-bottom h-screen"></div>
+  <div class="h-screen image bg-cover bg-bottom"></div>
 </template>
 
 <script>

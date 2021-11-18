@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div class="h-screen image bg-cover bg-bottom"></div>
 </template>
 
 <script>
@@ -44,3 +44,19 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.image {
+  background-image: url("../assets/destination/background-destination-mobile.jpg");
+}
+@media (min-width: 640px) {
+  .image {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
+}
+@media (min-width: 1024px) {
+  .image {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+  }
+}
+</style>
