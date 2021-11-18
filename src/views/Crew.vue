@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen image bg-cover bg-bottom"></div>
+  <div class="h-screen image bg-cover"></div>
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
           role: "Pilot",
           name: "Victor Glover",
           bio: "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. ",
-          picture: require("../assets/crew/image-vicotr-glover.png"),
+          picture: require("../assets/crew/image-victor-glover.png"),
         },
         {
           role: "Flight Engineer",
