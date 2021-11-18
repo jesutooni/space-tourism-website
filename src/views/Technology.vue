@@ -38,6 +38,7 @@ export default {
 .image {
   background-image: url("../assets/technology/background-technology-mobile.jpg");
 }
+
 @media (min-width: 640px) {
   .image {
     background-image: url("../assets/technology/background-technology-tablet.jpg");
