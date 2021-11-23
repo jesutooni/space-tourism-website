@@ -16,6 +16,11 @@ module.exports = {
         "barlow-condensed": ["'Barlow Condensed'", "sans-serif"],
         bellefair: ["'Bellefair'", "serif"],
       },
+      spacing: {
+        "1/25": "4%",
+        "1/20": "5%",
+        "1/15": "6.5%",
+      },
     },
   },
   variants: {

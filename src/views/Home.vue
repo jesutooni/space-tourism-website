@@ -1,10 +1,16 @@
 <template>
-  <div class="h-screen image bg-cover bg-bottom"></div>
+  <div class="h-screen image bg-cover lg:pt-10">
+    <top-header />
+  </div>
 </template>
 
 <script>
+import Header from "../components/Header.vue";
 export default {
   name: "Home",
+  components: {
+    "top-header": Header,
+  },
 };
 </script>
 
